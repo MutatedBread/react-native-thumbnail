@@ -16,6 +16,7 @@ import android.os.Environment;
 import android.util.Log;
 import android.media.MediaMetadataRetriever;
 import 	android.graphics.Matrix;
+import android.os.Build;
 
 import java.util.UUID;
 import java.io.File;
@@ -35,6 +36,11 @@ public class RNThumbnailModule extends ReactContextBaseJavaModule {
   @Override
   public String getName() {
     return "RNThumbnail";
+  }
+  
+  @ReactMethod
+  public void isMoreThanKitkat(Callback callback) {
+    callback.invoke(Build.VERSION.SDK_INT > Build.VERSION_CODES.KITKAT);
   }
 
   @ReactMethod
