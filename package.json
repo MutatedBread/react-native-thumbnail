@@ -2,7 +2,7 @@
   "name": "react-native-thumbnail",
   "version": "1.1.1",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phuochau/react-native-thumbnail.git"
+    "url": "git+https://github.com/mutatedbread/react-native-thumbnail.git"
   },
   "author": "Hau Vo <hau.vophuoc@gmail.com>",
   "license": "MIT",

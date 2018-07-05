@@ -15,8 +15,9 @@ import android.graphics.Bitmap;
 import android.os.Environment;
 import android.util.Log;
 import android.media.MediaMetadataRetriever;
-import 	android.graphics.Matrix;
+import android.graphics.Matrix;
 import android.os.Build;
+import android.net.Uri;
 
 import java.util.UUID;
 import java.io.File;

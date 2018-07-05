@@ -10,7 +10,7 @@ export interface Thumbnail {
 }
 
 export interface RNThumbnail {
-	get(filePath : string): Thumbnail;
+	get(filePath : string): Promise<Thumbnail>;
 	isMoreThanKitkat(callback : IsMoreThanKitkatCallback): void;
 }
 
