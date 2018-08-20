@@ -20,7 +20,7 @@ export interface PermissionHelper {
 	isMoreThanKitkat: IsMoreThanKitkatCallback
 }
 
-const { RNThumbnail } : { RNThumbnail : RNThumbnail } = NativeModules;
+const RNThumbnail : RNThumbnail = NativeModules.RNThumbnail;
 
 const hasPermissionWriteExternal = async () => {
 	return await PermissionsAndroid.check(
